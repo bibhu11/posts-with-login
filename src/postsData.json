@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1234,
+      "profileIcon": "/theressaWebb.png",
+      "profileName": "Theressa Webb",
+      "timeText": "5 mins ago",
+      "postIcon": "/wave.png",
+      "postText": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "isEdited": false,
+      "comments": 24
+    },
+    {
+      "id": 1235,
+      "profileIcon": "/marvinMcKinney.png",
+      "profileName": "Marvin McKinney",
+      "timeText": "8 mins ago",
+      "postIcon": "/sad.png",
+      "postText": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+      "isEdited": true,
+      "comments": 12
+    }
+  ]
+}

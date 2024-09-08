@@ -1,5 +1,7 @@
-
 .border-gradient {
-    border-image-source: linear-gradient(129.59deg, #969696 0%, #343434 98.18%);
-    border: 2px solid;
+  border: 2px solid #0000;
+  border-radius: 8px;
+  background: linear-gradient(#27292d, #27292d) padding-box,
+    linear-gradient(141deg, rgb(150, 150, 150), rgb(52, 52, 52)) border-box;
+  width: 463px;
 }

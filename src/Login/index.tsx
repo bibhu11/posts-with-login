@@ -14,11 +14,7 @@ export default function Login({ registration, onLogin }: LoginProps) {
   const [password, setPassword] = useState("");
 
   return (
-    <div
-      className={
-        styles["border-gradient"] + " bg-[#27292D] py-[40px] px-6 w-[463px]"
-      }
-    >
+    <div className={styles["border-gradient"] + " py-10 px-6"}>
       <section className="text-center">
         <Typography variant="sm" fontWeight="medium" color="tertiary">
           WELCOME BACK
@@ -60,12 +56,22 @@ export default function Login({ registration, onLogin }: LoginProps) {
             </Typography>
           }
         />
-        <Button onClick={onLogin} className="mt-6">
+        <Button onClick={onLogin} className="mt-6 w-full">
           Login now
         </Button>
-        <Typography variant="sm" color="tertiary" className="mt-3" fontWeight="medium">
+        <Typography
+          variant="sm"
+          color="tertiary"
+          className="mt-3"
+          fontWeight="medium"
+        >
           Not registered yet?{" "}
-          <Typography as="span" variant="sm" color="primary" fontWeight="medium">
+          <Typography
+            as="span"
+            variant="sm"
+            color="primary"
+            fontWeight="medium"
+          >
             Register →
           </Typography>
         </Typography>
