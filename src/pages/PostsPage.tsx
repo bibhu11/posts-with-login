@@ -7,7 +7,7 @@ import PostInfo from "../components/PostInfo";
 import Typography from "../components/Typography";
 import data from "../postsData.json";
 import Modal from "../components/Modal";
-import Login from "../Login";
+import Login from "../Auth";
 
 export default function PostsPage() {
   const [showLogin, setShowLogin] = useState(false);
@@ -23,7 +23,12 @@ export default function PostsPage() {
         community 🤗
       </Typography>
       <section className="my-10">
-        <PostContainer onClick={onClick}>
+        <PostContainer
+          onClick={onClick}
+          className={`${
+            showLogin ? "py-5" : ""
+          } transition-all duration-500 ease-in-out`}
+        >
           <Typography variant="lg" fontWeight="medium" color="primary">
             Create post
           </Typography>
@@ -33,7 +38,13 @@ export default function PostsPage() {
             className="mt-4 items-center"
           />
           <div className="flex justify-end mt-4">
-            <Button>Post</Button>
+            <Button
+              className={`${
+                showLogin ? "px-11 py-2.5" : ""
+              } transition-all duration-500 ease-in-out`}
+            >
+              Post
+            </Button>
           </div>
         </PostContainer>
         {posts.map((post) => {

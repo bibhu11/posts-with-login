@@ -7,6 +7,7 @@ type TypographyProps = {
   fontWeight?: "normal" | "medium" | "semibold" | "bold";
   children: React.ReactNode;
   as?: React.ElementType;
+  onClick?: () => void;
 };
 
 export default function Typography({
