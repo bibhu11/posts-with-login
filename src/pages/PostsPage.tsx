@@ -26,7 +26,7 @@ export default function PostsPage() {
         <PostContainer
           onClick={onClick}
           className={`${
-            showLogin ? "py-5" : ""
+            showLogin ? "!py-5" : ""
           } transition-all duration-500 ease-in-out`}
         >
           <Typography variant="lg" fontWeight="medium" color="primary">
@@ -40,7 +40,7 @@ export default function PostsPage() {
           <div className="flex justify-end mt-4">
             <Button
               className={`${
-                showLogin ? "px-11 py-2.5" : ""
+                showLogin ? "px-11 !py-2.5" : ""
               } transition-all duration-500 ease-in-out`}
             >
               Post
