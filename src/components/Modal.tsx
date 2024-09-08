@@ -39,7 +39,7 @@ export default function Modal({
           className="absolute top-4 right-4 w-8 h-8 rounded-full bg-[#131319] flex items-center justify-center cursor-pointer"
           onClick={onClose}
         >
-          <img src="/cross.svg" alt="Close" width={10} height={10} />
+          <img src="cross.svg" alt="Close" width={10} height={10} />
         </div>
         {children}
       </div>

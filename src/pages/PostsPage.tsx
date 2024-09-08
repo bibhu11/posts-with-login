@@ -33,7 +33,7 @@ export default function PostsPage() {
             Create post
           </Typography>
           <IconTextBox
-            iconUrl="/dialog.png"
+            iconUrl="dialog.png"
             bodyText="How are you feeling today?"
             className="mt-4 items-center"
           />
