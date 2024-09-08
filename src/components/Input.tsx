@@ -33,7 +33,7 @@ export default function Input({
         onChange={onChange}
         placeholder={placeholder}
         className={
-          "mt-[10px] border-[1.5px] border-[#35373B] rounded text-[#7F8084] bg-transparent w-full p-2"
+          "mt-2.5 border-[1.5px] border-[#35373B] rounded text-[#7F8084] bg-transparent w-full p-2"
         }
       />
     </div>
